@@ -5,6 +5,7 @@ import Footer from './componentes/Footer/Footer';
 import Main from './componentes/Main/Main';
 import './componentes/media-queries.css';
 import Script from './componentes/script';
+import Loading from './componentes/Loading/Loading';
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <Main/>
       <Footer/>
       <Script />
+      <Loading />
     </div>
   );
 }

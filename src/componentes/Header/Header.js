@@ -32,7 +32,7 @@ const Header = () => {
             </div>
             <div className="header__login">
                 <button className="subscribe">
-                <span><FontAwesomeIcon icon={faArrowDown} /></span>
+                    <span><FontAwesomeIcon icon={faArrowDown} /></span>
                     Instalar aplicativo
                 </button>
                 <button className="subscribe">Inscreva-se</button>

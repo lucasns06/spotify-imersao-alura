@@ -156,7 +156,7 @@ const Main = () => {
             cor: 'card15'
         },
         {
-            id: 21,
+            id: 24,
             img: Playlist13,
             span: 'Indie',
             cor: 'card13'
@@ -173,7 +173,7 @@ const Main = () => {
                     <div className="offer__list">
                         <section className="offer__list-item">
                             {cards.map((item) => (
-                                <a href="/" className={`cards ${item.cor}`} alt="card">
+                                <a href="/" className={`cards ${item.cor}`} alt="card" key={item.id}>
                                     <div className="cards">
                                         <img src={item.img} alt="" />
                                         <span>{item.span}</span>
