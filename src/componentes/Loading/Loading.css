@@ -1,6 +1,6 @@
 .loading{
     position: fixed;
-    /* overflow: hidden; */
+    overflow: hidden;
     left: 0;
     top: 0;
     background: rgb(0, 0, 0);
@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    z-index: 99999;
 }
 .loading h1{
     color: white;
