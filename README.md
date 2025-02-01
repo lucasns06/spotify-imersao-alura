@@ -49,6 +49,3 @@ ou
 **Necessário ter o Nodejs**
 
 Feito com 💚 por [Lucas Nascimento](https://github.com/lucasns06)  
-```
-
-Agora é só copiar e colar no seu arquivo `README.md`. 🚀
