@@ -1,7 +1,7 @@
 import './Sidebar.css';
 import logoSpotify from '../../assets/icons/logo-spotify.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faSearch, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faSearch, faGlobe, faBook, faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = () => {
     return (
@@ -30,10 +30,10 @@ const Sidebar = () => {
             <div className="library">
                 <div className="library__content">
                     <button className="library__button">
-                        <span className="fa fas fa-book"></span>
+                        <span><FontAwesomeIcon icon={faBook} /></span>
                         <span>Sua biblioteca</span>
                     </button>
-                    <span className="fa fa-plus"></span>
+                    <span><FontAwesomeIcon icon={faPlus} /></span>
                 </div>
                 <section className="section-playlist">
                     <div className="section-playlist__content">
@@ -44,8 +44,17 @@ const Sidebar = () => {
                         </button>
                     </div>
                 </section>
+                <section className="section-playlist">
+                    <div className="section-playlist__content">
+                        <span className="text title">Que tal seguir um podcast novo?</span>
+                        <span className="text subtitle">Avisaremos você sobre novos episodios.</span>
+                        <button className="section-playlist__button">
+                            <span>Explore podcasts</span>
+                        </button>
+                    </div>
+                </section>
                 <div className="cookies">
-                    <a href="">Cookies</a>
+                    <a href="/" alt="cookies">Cookies</a>
                 </div>
                 <div className="languages">
                     <button className="languages__button">

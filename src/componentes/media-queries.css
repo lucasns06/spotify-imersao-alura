@@ -1,0 +1,40 @@
+@media (max-width: 950px) {
+  .sidebar {
+    display: none;
+  }
+  .playlist-container {
+    margin: 0;
+    margin-top: 64px;
+    max-width: 100vw;
+    height: 90vh;
+  }
+  .offer__scroll-container{
+    max-height: 82vh;
+  }
+  .session, .playlist{
+    margin-top: 0;
+  }
+  .disclaimer-premium{
+    display: none;
+  }
+  .offer__list-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cards{
+    width: 100%;
+  }
+  .header__navigation, .header__search{
+    margin: 0;
+  }
+  .header__search__container .header__search{
+    width: 96vw;
+  }
+  .header__search__container .navigation{
+    display: none;
+  }
+  .header__login{
+    display: none;
+  }
+}

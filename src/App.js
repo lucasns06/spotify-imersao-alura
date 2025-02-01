@@ -3,7 +3,8 @@ import Header from '../src/componentes/Header/Header';
 import Sidebar from './componentes/Sidebar/Sidebar';
 import Footer from './componentes/Footer/Footer';
 import Main from './componentes/Main/Main';
-// import Script from './componentes/script';
+import './componentes/media-queries.css';
+import Script from './componentes/script';
 function App() {
   return (
     <div>
@@ -11,7 +12,7 @@ function App() {
       <Header />
       <Main/>
       <Footer/>
-      {/* <Script /> */}
+      <Script />
     </div>
   );
 }

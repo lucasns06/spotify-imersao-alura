@@ -106,13 +106,67 @@ const Main = () => {
             img: Playlist15,
             span: 'Música Latina',
             cor: 'card15'
-        }
+        },
+        {
+            id: 16,
+            img: Playlist8,
+            span: 'Samba e pagode',
+            cor: 'card8'
+        },
+        {
+            id: 17,
+            img: Playlist9,
+            span: 'Funk',
+            cor: 'card9'
+        },
+        {
+            id: 18,
+            img: Playlist10,
+            span: 'MPB',
+            cor: 'card10'
+        },
+        {
+            id: 19,
+            img: Playlist11,
+            span: 'Rock',
+            cor: 'card11'
+        },
+        {
+            id: 20,
+            img: Playlist12,
+            span: 'Hip Hop',
+            cor: 'card12'
+        },
+        {
+            id: 21,
+            img: Playlist13,
+            span: 'Indie',
+            cor: 'card13'
+        },
+        {
+            id: 22,
+            img: Playlist14,
+            span: 'Relax',
+            cor: 'card14'
+        },
+        {
+            id: 23,
+            img: Playlist15,
+            span: 'Música Latina',
+            cor: 'card15'
+        },
+        {
+            id: 21,
+            img: Playlist13,
+            span: 'Indie',
+            cor: 'card13'
+        },
     ];
     return (
         <div className="playlist-container">
             <div id="result-playlists">
                 <div className="playlist">
-                    <h1 id="greeting">Boas vindas</h1>
+                    {/* <h1 id="greeting">Boas vindas</h1> */}
                     <h2 className="session">Navegar por todas as seções</h2>
                 </div>
                 <div className="offer__scroll-container">

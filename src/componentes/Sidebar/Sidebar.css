@@ -4,7 +4,8 @@
     left:0;
     bottom:0;
     padding:12px;
-    width:300px;
+    width:378px;
+    margin-top: 52px;
 }
 
 .sidebar__navigation{
@@ -56,6 +57,7 @@
     font-weight: 600;
     font-size:14px;
     margin-top: 10px;
+    min-height: 564px;
 }
 
 .library .library__content{
@@ -75,20 +77,35 @@
     text-decoration: none;
     text-transform: none;
     padding:20px 10px;
+    transition: 0.25s;
 }
 
-.library .library__button .fa{
+.library .library__button span{
     font-size:20px;
     font-weight: 300;
     color:#b3b3b3;
     margin-right: 10px;
     padding-right:8px;
 }
-
-.library .library__content .fa-plus{
-    margin: 24px 10px;
+.library .library__button:hover span{
+    color: white;
 }
-
+.library .library__button:hover{
+    transform:  scale(1);
+}
+.library .library__content .fa-plus{
+    margin: 18px 4px;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 100%;
+    transition: 0.25s;
+}
+.library .library__content .fa-plus:hover{
+    background: #242424;
+}
+.library .library__content .fa-plus:hover path{
+    fill: white;
+}
 .section-playlist{
     display:flex;
     align-items: flex-start;
