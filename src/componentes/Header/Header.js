@@ -4,19 +4,17 @@ import smallRight from '../../assets/icons/small-right.png';
 import smallLeft from '../../assets/icons/small-left.png';
 import search from '../../assets/icons/search.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown, faHome } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <nav className="header__navigation">
             <div className='header__search__container'>
                 <div className="navigation">
-                    <button className="arrow-left">
-                        <img src={smallLeft} alt="Seta esquerda" />
-                    </button>
-                    <button className="arrow-right">
-                        <img src={smallRight} alt="Seta direita" />
-                    </button>
+                    <Link to="/">
+                        <span><FontAwesomeIcon icon={faHome} className='header__home__icon' /></span>
+                    </Link>
                 </div>
                 <div className="header__search">
                     <img src={search} alt="Buscar" />

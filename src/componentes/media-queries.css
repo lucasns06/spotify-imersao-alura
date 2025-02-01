@@ -2,7 +2,7 @@
   .sidebar {
     display: none;
   }
-  .playlist-container {
+  .playlist-container, .container__musica {
     margin: 0;
     margin-top: 64px;
     max-width: 100vw;
@@ -25,14 +25,15 @@
   .cards{
     width: 100%;
   }
-  .header__navigation, .header__search{
+  .header__search{
     margin: 0;
   }
-  .header__search__container .header__search{
-    width: 96vw;
+  .header__search__container{
+    width: 100vw;
+    justify-content: space-between;
   }
-  .header__search__container .navigation{
-    display: none;
+  .header__search{
+    width: 90vw;
   }
   .header__login{
     display: none;

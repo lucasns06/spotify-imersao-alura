@@ -1,0 +1,90 @@
+.card1 {
+  background: linear-gradient(180deg, #006450 0%, #003d31 100%);
+}
+.card2 {
+  background: linear-gradient(180deg, #8400e7 0%, #6400b0 100%);
+}
+.card3 {
+  background: linear-gradient(180deg, #1e3264 0%, #142247 100%);
+}
+.card4 {
+  background: linear-gradient(180deg, #8c1932 0%, #500a1e 100%);
+}
+.card5 {
+  background: linear-gradient(180deg, #e8115b 0%, #aa0846 100%);
+}
+.card6 {
+  background: linear-gradient(180deg, rgb(83, 122, 161) 0%, #32506e 100%);
+}
+.card7 {
+  background: linear-gradient(180deg, rgb(142, 102, 172) 0%, #5a4178 100%);
+}
+.card8 {
+  background: linear-gradient(180deg, rgb(20, 138, 8) 0%, #0a5504 100%);
+}
+.card9 {
+  background: linear-gradient(180deg, rgb(30, 50, 100) 0%, #0f1937 100%);
+}
+.card10 {
+  background: linear-gradient(180deg, rgb(233, 20, 41) 0%, #aa0a1e 100%);
+}
+.card11 {
+  background: linear-gradient(180deg, rgb(80, 55, 80) 0%, #2d1e2d 100%);
+}
+.card12 {
+  background: linear-gradient(180deg, rgb(216, 64, 0) 0%, #8c2800 100%);
+}
+.card13 {
+  background: linear-gradient(180deg, rgb(186, 93, 7) 0%, #783c04 100%);
+}
+.card14 {
+  background: linear-gradient(180deg, rgb(0, 30, 80) 0%, #000f32 100%);
+}
+.card15 {
+  background: linear-gradient(180deg, rgb(60, 30, 80) 0%, #230f2d 100%);
+}
+.card1-fade {
+  background: linear-gradient(180deg, #002a23 0%, transparent 100%);
+}
+.card2-fade {
+  background: linear-gradient(180deg, #4a0089 0%, transparent 100%);
+}
+.card3-fade {
+  background: linear-gradient(180deg, #0d1a33 0%, transparent 100%);
+}
+.card4-fade {
+  background: linear-gradient(180deg, #3d0717 0%, transparent 100%);
+}
+.card5-fade {
+  background: linear-gradient(180deg, #880636 0%, transparent 100%);
+}
+.card6-fade {
+  background: linear-gradient(180deg, #253b53 0%, transparent 100%);
+}
+.card7-fade {
+  background: linear-gradient(180deg, #412f5a 0%, transparent 100%);
+}
+.card8-fade {
+  background: linear-gradient(180deg, #073d03 0%, transparent 100%);
+}
+.card9-fade {
+  background: linear-gradient(180deg, #0a1329 0%, transparent 100%);
+}
+.card10-fade {
+  background: linear-gradient(180deg, #880718 0%, transparent 100%);
+}
+.card11-fade {
+  background: linear-gradient(180deg, #211620 0%, transparent 100%);
+}
+.card12-fade {
+  background: linear-gradient(180deg, #6a1f00 0%, transparent 100%);
+}
+.card13-fade {
+  background: linear-gradient(180deg, #5a2d03 0%, transparent 100%);
+}
+.card14-fade {
+  background: linear-gradient(180deg, #000a25 0%, transparent 100%);
+}
+.card15-fade {
+  background: linear-gradient(180deg, #180b21 0%, transparent 100%);
+}

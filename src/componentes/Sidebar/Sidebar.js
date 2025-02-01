@@ -2,28 +2,29 @@ import './Sidebar.css';
 import logoSpotify from '../../assets/icons/logo-spotify.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faSearch, faGlobe, faBook, faPlus } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
         <div className="sidebar">
             <nav className="sidebar__navigation">
                 <div className="logo">
-                    <a href="">
+                    <Link to="/">
                         <img src={logoSpotify} alt="Logo" />
-                    </a>
+                    </Link>
                 </div>
                 <ul>
                     <li>
-                        <a href="">
+                        <Link to="/">
                             <span><FontAwesomeIcon icon={faHome} /></span>
                             <span>Início</span>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="">
+                        <Link to="/">
                             <span><FontAwesomeIcon icon={faSearch} /></span>
                             <span>Buscar</span>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
@@ -54,7 +55,7 @@ const Sidebar = () => {
                     </div>
                 </section>
                 <div className="cookies">
-                    <a href="/" alt="cookies">Cookies</a>
+                    <Link to="/" alt="cookies">Cookies</Link>
                 </div>
                 <div className="languages">
                     <button className="languages__button">

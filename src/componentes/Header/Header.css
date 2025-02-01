@@ -2,15 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 12px;
     padding: 16px;
     border-radius: 8px;
     padding: 8px;
-    width: 96%;
+    width: 98vw;
     position: fixed;
     top:0;
     left:0;
     z-index: 5;
+    background: #000;
   }
   .header__search__container{
     display: flex;
@@ -38,7 +38,9 @@
     border: none;
     cursor: pointer;
   }
-  
+  .header__home__icon path{
+    fill: white;
+  }
   .header__login {
     display: flex;
     align-items: center;
