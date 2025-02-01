@@ -54,6 +54,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 32px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .cards {

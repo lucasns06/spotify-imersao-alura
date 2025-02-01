@@ -1,5 +1,6 @@
 .loading{
     position: fixed;
+    /* overflow: hidden; */
     left: 0;
     top: 0;
     background: rgb(0, 0, 0);
