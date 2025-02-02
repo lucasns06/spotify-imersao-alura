@@ -68,23 +68,23 @@ const Dynamic = () => {
 
             <section className='section__cards'>
                 <h1>24 Horas de {selectedCategory.span}</h1>
-                <div className="cards__container">
-                    <div className="grid-container">
-                        {artists.map((item) => (
-                            <div className="artist-card" id="">
-                                <div class="card-img">
-                                    <img class="artist-img" src={item.urlImg} alt={item.name} />
-                                    <div class="play">
-                                        <span><FontAwesomeIcon icon={faPlay} /></span>
+                    <div className="cards__container">
+                        <div className="grid-container">
+                            {artists.map((item) => (
+                                <div className="artist-card" id="">
+                                    <div class="card-img">
+                                        <img class="artist-img" src={item.urlImg} alt={item.name} />
+                                        <div class="play">
+                                            <span><FontAwesomeIcon icon={faPlay} /></span>
+                                        </div>
+                                    </div><div class="card-text">
+                                        <span class="artist-name">{item.name}</span>
+                                        <span class="artist-categorie">Artista</span>
                                     </div>
-                                </div><div class="card-text">
-                                    <span class="artist-name">{item.name}</span>
-                                    <span class="artist-categorie">Artista</span>
                                 </div>
-                            </div>
-                        ))}
+                            ))}
+                        </div>
                     </div>
-                </div>
             </section>
         </div>
     );
