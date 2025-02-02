@@ -1,48 +1,62 @@
+@media (max-width: 1090px) {
+  .offer__list-item .cards{
+    width: 100%;
+  }
+}
+
 @media (max-width: 950px) {
   .sidebar {
     display: none;
   }
-  .playlist-container, .container__musica {
+  .playlist-container,
+  .container__musica {
     margin: 0;
     margin-top: 64px;
     max-width: 100vw;
     min-height: 90vh;
   }
-  .offer__scroll-container{
+  .offer__scroll-container {
     max-height: 82vh;
   }
-  .session, .playlist{
+  .session,
+  .playlist {
     margin-top: 0;
   }
-  .disclaimer-premium{
+  .disclaimer-premium {
     display: none;
   }
-  .offer__list-item{
+  .offer__list-item {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .cards{
+  .cards {
     width: 100%;
   }
-  .header__search{
+  .header__search {
     margin: 0;
   }
-  .header__search__container{
+  .header__search__container {
     width: 100vw;
     justify-content: space-between;
   }
-  .header__search{
+  .header__search {
     width: 90vw;
   }
-  .header__login{
+  .header__login {
     display: none;
   }
 }
 
 @media (max-width: 600px) {
-  .musica__titulo{
+  .musica__titulo {
     font-size: 42px;
     margin-bottom: 6px;
+  }
+  .cards__container {
+    margin-top: 26px;
+  }
+  .grid-container, .grid-container2 {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 0fr));
   }
 }

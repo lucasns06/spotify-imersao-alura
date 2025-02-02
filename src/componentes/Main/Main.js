@@ -31,13 +31,13 @@ const Main = () => {
                 <div className="grid-container">
                     <div className="artist-card" id="">
                         <div className="card-img">
-                            <img id="artist-img" className="artist-img" />
+                            <img id="artist-img" className="artist-img" alt="artist"/>
                             <div className="play">
                                 <span><FontAwesomeIcon icon={faPlay} /></span>
                             </div>
                         </div>
                         <div className="card-text">
-                            <a title="Foo Fighters" className="vst" href="">
+                            <a title="Foo Fighters" className="vst" href="/" alt="artist">
                                 <span className="artist-name" id="artist-name"></span>
                                 <span className="artist-categorie">Artista</span>
                             </a>
